@@ -2,9 +2,14 @@
   --border-radius: 12px;
   --logo-color: #5D5D6D;
   --bg-secondary: #F3F5F6;
+  --bg-primary: #F0F0F5;
   --text-dark: #737380;
   --delete-color: #DE3838;
   --orange-low: #FFA585;
+  --text-dark2: #41414D;
+  --shapes-dark: #09090A;
+  --shapes: #DCE2E5;
+
 
   * {
     box-sizing: border-box;
