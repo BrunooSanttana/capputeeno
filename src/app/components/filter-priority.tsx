@@ -1,6 +1,5 @@
 
 import styled from "styled-components"
-import { FilterByType } from "./filter-by-type"
 import { ArrowIcon } from "./arrow-icon"
 import { useState } from "react"
 import { useFilter } from "../hooks/useFilter"
@@ -26,17 +25,17 @@ align-itens: center;
         background: transparent;
 
         svg {
-            margin-left: 16px;
+            margin-left: 20px;
         }
     }
 `
 const PriorityFilter = styled.ul`
-    width: 150px;
-    position: absolute;
+    width: -5px;
     border-radius: 4px;
     padding: 20px;
     top: 100%;
-    margin-top: 2px;
+    margin-top: 20px;
+    z-index: 999;
 
     li {
         color: var(--text-dark);
@@ -50,7 +49,7 @@ const PriorityFilter = styled.ul`
     }
 
     li + li {
-        margin-top: 4px;
+        margin-top: 5px;
     }
 `
 
@@ -75,7 +74,6 @@ export function FilterOrder(props: FilterOrderProps) {
             {isOpen && 
              <PriorityFilter>
                 <li onClick={()=> handleUpdatePriority(PriorityTypes.NEWS)}>Novidades</li>
-                <li onClick={()=> handleUpdatePriority(PriorityTypes.MINOR_PRICE)}>Preço: Maior - Menor</li>
                 <li onClick={()=> handleUpdatePriority (PriorityTypes.BIGGEST_PRICE)}>Preço: Menor - Maior</li>
                 <li onClick={()=> handleUpdatePriority(PriorityTypes.POPULARITY)}>Mais Vendidos</li>
              </PriorityFilter> }

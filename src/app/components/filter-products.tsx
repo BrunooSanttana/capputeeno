@@ -4,7 +4,6 @@ import styled from "styled-components"
 import { FilterByType } from "./filter-by-type"
 import { FilterOrder } from "./filter-priority"
 
-
 interface FilterProductsProps {
 
 }

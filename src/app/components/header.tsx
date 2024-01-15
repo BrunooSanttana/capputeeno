@@ -5,6 +5,7 @@ import styled from "styled-components"
 import { Saira_Stencil_One } from "next/font/google"
 import { PrimaryInputWSearchIcon } from "./primary-input"
 import { BagControl } from "./bag-control"
+import { useFilter } from "../hooks/useFilter"
 
 
 interface HeaderProps {
@@ -30,11 +31,15 @@ line-height: 150%;
 
  
 export function Header (props: HeaderProps){
+    const {setSearch, search}= useFilter();
     return (
        <TagHeader>
         <Logo className={sairaStencil.className}>Capputeeno</Logo>
         <div>
-            <PrimaryInputWSearchIcon placeholder="procurando por algo especifico?"/>
+            <PrimaryInputWSearchIcon
+            value={search}
+            handleChange={setSearch}
+            placeholder="procurando por algo especifico?"/>
             <BagControl/>
         </div>
        </TagHeader>

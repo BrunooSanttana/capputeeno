@@ -1,5 +1,5 @@
-import { FilterType } from "../types/filter-types"
-import { PriorityTypes } from "../types/priority-types"
+import { FilterType } from "../types/filter-types";
+import { PriorityTypes } from "../types/priority-types";
 
 export function getCategoryByType(type: FilterType){
     if(type == FilterType.MUG) return "mugs"

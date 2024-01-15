@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { BagIcon } from "./bag-Icon";
 import { useRouter } from "next/navigation";
+import { BagIcon } from "./bag-Icon";
 
 // contador carrinho
 const CartCount = styled.span`
