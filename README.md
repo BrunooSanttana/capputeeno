@@ -1,4 +1,3 @@
-
 ## CAPPUTEENO
 
 O projeto é uma página de E-COMMERCE para venda de canecas e camisetas que tem as seguintes funcionalidades:
@@ -8,6 +7,7 @@ O projeto é uma página de E-COMMERCE para venda de canecas e camisetas que tem
  - Filtragem produtos por categoria
 
  - Busca por nome do produto
+ - 
 ## Rodando localmente
 
 Clone o projeto
