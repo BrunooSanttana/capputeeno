@@ -1,5 +1,5 @@
-<i class="fa fa-coffee" aria-hidden="true"></i>
-## CAPPUTEENO
+
+🗣 ## CAPPUTEENO
 
 O projeto é uma página de E-COMMERCE para venda de canecas e camisetas que tem as seguintes funcionalidades:
 
