@@ -62,8 +62,8 @@ a API vai iniciar localmente em localhost:3333
 
 
 ## Prévia
-Protótipo do projeto: 
-https://www.figma.com/file/rET9F2CeUEJdiVN7JRu993/E-commerce---capputeeno?type=design&node-id=680-6449&mode=design
+Imagens do projeto: 
+
 
 
 ## 🔗 Links
