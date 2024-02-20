@@ -9,7 +9,11 @@ O projeto é uma página de E-COMMERCE para venda de canecas e camisetas que tem
 
  - Busca por nome do produto
 
- - Carrinho de Compras
+ - Carrinho de Compras   
+   
+ - Adicionar e remover produtos do carrinho
+
+ - Finalizar compra
 
    
 ## Rodando localmente
