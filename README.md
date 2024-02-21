@@ -8,7 +8,14 @@ O projeto é uma página de E-COMMERCE para venda de canecas e camisetas que tem
  - Filtragem produtos por categoria
 
  - Busca por nome do produto
- - 
+
+ - Carrinho de Compras   
+   
+ - Adicionar e remover produtos do carrinho
+
+ - Finalizar compra
+
+   
 ## Rodando localmente
 
 Clone o projeto
@@ -59,8 +66,8 @@ a API vai iniciar localmente em localhost:3333
 
 
 ## Prévia
-Protótipo do projeto: 
-https://www.figma.com/file/rET9F2CeUEJdiVN7JRu993/E-commerce---capputeeno?type=design&node-id=680-6449&mode=design
+Imagens do projeto: 
+
 
 
 ## 🔗 Links
