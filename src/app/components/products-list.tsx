@@ -23,6 +23,7 @@ export function ProductsList() {
                     title={product.name}
                     price={product.price_in_cents}
                     img={product.image_url}
+                    id={product.id}
                 />
             )}
         </ListContainer>
