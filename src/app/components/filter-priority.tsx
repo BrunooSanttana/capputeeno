@@ -13,6 +13,8 @@ const FilterContainer = styled.div`
 display: flex;
 position: relative;
 align-itens: center;
+margin-right: 80px;
+
 
     button {
         cursor: pointer;
@@ -25,7 +27,7 @@ align-itens: center;
         background: transparent;
 
         svg {
-            margin-left: 20px;
+            margin-left: 10px;
         }
     }
 `
@@ -34,7 +36,7 @@ const PriorityFilter = styled.ul`
     border-radius: 4px;
     padding: 20px;
     top: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     z-index: 999;
 
     li {
@@ -49,7 +51,7 @@ const PriorityFilter = styled.ul`
     }
 
     li + li {
-        margin-top: 5px;
+        margin-top: 10px;
     }
 `
 

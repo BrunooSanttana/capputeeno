@@ -3,30 +3,34 @@ import styled from "styled-components";
 import { SearchIcon } from "./search-icon";
 
 export const PrimaryInput = styled.input`
-width: 352px;
-padding: 10px, 16px, 10px, 16px;
-border-radius: 8px;
-border: none;
-margin-left: 100%;
-margin-top: 7%;
-background-color: var(--bg-secondary);
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 16px;
+    margin-left: 70%;
 
-font-family: inherit;
-font-weight: 400;
-line-height: 22px;
-font-size: 14px;
-color: var(--text-dark);
+    background-color: var(--bg-secondary);
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--text-dark);
+
+    @media(min-width: ${props => props.theme.desktopBreakpoint}){
+        font-size: 14px;
+        line-height: 22px;
+    }
 `
-// LUPA
-const InputContainer =styled.div` 
-position: relative;
-width: 302px;
 
-svg {
-    position: absolute;
-    margin-left: 630px;
-    top: 50%;
-}
+const InputContainer = styled.div`
+    position: relative;
+    width: 250px;
+    margin-right: 5%;
+
+    @media(min-width: ${props => props.theme.desktopBreakpoint}){
+        width: 352px;
+    }
 `
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
@@ -38,7 +42,6 @@ export function PrimaryInputWSearchIcon(props: InputProps){
     return(
        <InputContainer>
             <PrimaryInput onChange={(event) => props.handleChange(event.target.value)}{...props}/>
-            <SearchIcon/>
        </InputContainer>
     )
 }
