@@ -34,7 +34,7 @@ export function Header (props: HeaderProps){
     const {setSearch, search}= useFilter();
     return (
        <TagHeader>
-        <Logo className={sairaStencil.className}>Capputeeno</Logo>
+        <Logo className={sairaStencil.className} href="/">Capputeeno</Logo>
         <div>
             <PrimaryInputWSearchIcon
             value={search}
