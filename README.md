@@ -71,13 +71,23 @@ Rodar os seguintes comandos:
 
 a API vai iniciar localmente em localhost:3333
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://brunoosanttana.github.io/PortifolioBS/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunoo-santtana/)
+
 
 ## Prévia
 Imagens do projeto: 
 
 
+![capputenoHome](https://github.com/BrunooSanttana/capputeeno/assets/88469365/f8ef832f-180f-4864-a97c-c6629b7998f1)
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://brunoosanttana.github.io/PortifolioBS/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunoo-santtana/)
+![capputeenoFilterProduct](https://github.com/BrunooSanttana/capputeeno/assets/88469365/6e6e9396-00cd-43c3-859d-5f661989fd36)
+
+![capputeenoViewProduct](https://github.com/BrunooSanttana/capputeeno/assets/88469365/adb74c30-1fc4-4163-a78b-947a2266a200)
+
+![capputeenoCartPage](https://github.com/BrunooSanttana/capputeeno/assets/88469365/5ac960c0-2863-4c35-a388-07ba85c966cf)
+
+
+
 
