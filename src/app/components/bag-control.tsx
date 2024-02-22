@@ -5,10 +5,10 @@ import { BagIcon } from "./bag-Icon";
 
 // contador carrinho
 const CartCount = styled.span`
-    width: 17px;
-    height: 17px;
+    width: 37px;
+    height: 37px;
     border-radius: 100%;
-    padding: 0 5px;
+    padding: 0 1px;
     font-size: 10px;
 
     background-color: var(--delete-color);
@@ -23,8 +23,8 @@ const Container = styled.button`
     cursor: pointer;
     border: none;
     background: transparent;
-    margin-left: 680px;
-    top: -30%;
+    margin-left: 200px;
+    top: 30%;
     
 `
 
