@@ -36,7 +36,10 @@ Entre no diretório do projeto
 ```bash
   cd capputeeno
 ```
-
+Instale o next
+```bash
+npm install next
+````
 Instale as dependências
 
 ```bash
